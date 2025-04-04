@@ -4,7 +4,10 @@
 */
 
 :root {
+  --background-image: url('../images/cover-image-dark.png');
+  --rec-color: #FF0070;
   --accent-color: #FF0070;
+  --detail-color: #FF0070;
   --header-text-color: #DB00FF;
   --main-color: #000028;
   --paragraph-color: #F1B2CE;
