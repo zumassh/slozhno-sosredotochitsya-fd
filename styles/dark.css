@@ -22,3 +22,16 @@
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-image: url('../images/cover-image-dark.png');
+    --accent-color: #FF0070;
+    --rec-color: #FF0070;
+    --detail-color: #FF0070;
+    --header-text-color: #DB00FF;
+    --main-color: #000028;
+    --main-text-color: #000028;
+    --paragraph-color: #F1B2CE; 
+  }
+}
