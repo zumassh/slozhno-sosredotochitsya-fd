@@ -240,6 +240,7 @@
   }
 
   .text-main {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     justify-self: start;
     margin-left: -9px;
     margin-top: 5px;
@@ -358,7 +359,7 @@
 
 @media (width >=1024px) {
   .header {
-    grid-template-rows: repeat(3, min-content);
+    grid-template-rows: 1fr min-content 1fr;
     align-items: start;
     min-height: 768px;
     padding-top: 0px;
@@ -369,6 +370,7 @@
     flex-direction: row;
     margin-top: 20px;
     margin-left: 10px;
+    justify-self: center;
   }
 
   .header__theme-menu {
@@ -376,12 +378,11 @@
   }
 
   .text-main {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-    margin-top: 170px;
+    align-self: center;
   }
 
   .header__text-paragraph {
-    align-self: center;
+    justify-self: end;
     max-width: 491px;
     margin: 5px 0px 120px 0px;
   }
